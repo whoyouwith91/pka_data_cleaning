@@ -1,4 +1,8 @@
-# pka_data_cleaning
+# pka data processing & cleaning
 
-We prepare a list of jupyter notebooks to demonstrate how to process and clean the calculated/experimental datasets for ML modeling. The datasets include ChemBL(calculated), dataWarrior(exp), novartis(exp) and literature(exp). And great thanks to the data and scripts provided in [pkasolver-data](https://github.com/wiederm/pkasolver-data). 
+We cleaned some public pka datasets for ML modeling, which includes ChemBL(calculated), dataWarrior(exp), novartis(exp) and literature(exp). And great thanks to the data and scripts provided in [pkasolver-data](https://github.com/wiederm/pkasolver-data) as the starting point, we prepared a list of jupyter notebooks to demonstrate how to process and clean these datasets.   
 
+- 1. on ChemBL   
+    - Dependent dataset: 04_chembl_dataset_pyg.pkl, 05_chembl_dataset_pyg.pkl   
+    - Notebooks:   
+        - pka_chembl_processing.ipynb: 
