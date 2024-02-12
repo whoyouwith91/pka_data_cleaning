@@ -5,7 +5,9 @@ We cleaned some public pka datasets for ML modeling, which includes ChemBL(calcu
 - On ChemBL dataset  
     - Dependents: 04_chembl_dataset_pyg.pkl, 05_chembl_dataset_pyg.pkl   
     - Notebooks:   
-        - pka_chembl_processing.ipynb: each molecule will be processed to generate its protonated/deprotonated states, charge numbers and reaction atom centers. Output file is: "chembl_processed.pt" (download it from [here](https://drive.google.com/file/d/1KEgGI3vjSETPEPsqbm4YkjlTxvkkySEV/view?usp=drive_link))   
+        - pka_chembl_processing.ipynb:     
+            1. each molecule will be processed to generate its protonated/deprotonated states, charge numbers and reaction atom centers.     
+            2. Output file is: "chembl_processed.pt" (download it from [here](https://drive.google.com/file/d/1KEgGI3vjSETPEPsqbm4YkjlTxvkkySEV/view?usp=drive_link))   
         - pka_chembl_cleaning.ipynb: 
             1. read in the chembl_processed.pt;    
             2. check if the protonated/deprotonated states are correctly assigned by comparing the charge relationship;    
