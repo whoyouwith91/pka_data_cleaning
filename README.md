@@ -14,3 +14,30 @@ We cleaned some public pka datasets for ML modeling, which includes ChemBL(calcu
             3. running acid/base SMARTS pattern search to determine if the reaction atom centers belong to acid/base;     
             4. leave the protonated Mol object be the RWMol object for acids and deprotonated Mol object be the RWMol object for bases.     
             5. Filter out the drug-like compounds; 6. save out the file "**chembl_use_filter.pt**" (download it from [here](https://drive.google.com/file/d/1ZUU2r6VVAPUais_dkfnqJJlr7sh8HyOo/view?usp=drive_link))   
+
+- On Datawarrior dataset
+    - Dependents: 00_experimental_training_datasets.sdf,  04_experimental_training_dataset.pkl, 05_experimental_training_dataset_pyg.pkl    
+    - Notebooks:   
+        - pka_dw_cleaning_part01.ipynb:    
+            1. each molecule will be processed to generate its protonated/deprotonated states, charge numbers and reaction atom centers.    
+            2. check if there is conflict between charges on protonated and deprotonated states
+            3. running acid/base SMARTS pattern search to determine if the reaction atom centers belong to acid/base     
+            4. leave the protonated Mol object be the RWMol object for acids and deprotonated Mol object be the RWMol object for bases.    
+            5. Output file is: **exp_processed.pt** (# of mols less than the total in the raw dataset)
+        - pka_dw_cleaning_part02.ipynb:    
+            1. By comparing 00_experimental_training_datasets.sdf with exp_processed.pt, analyze those molecules (makeup set) that are not overlapping   
+            2. To correct the acid/base molecules in makeup set by setting the formal charge, number of explicit hydrogens and the protonated/deprotonated states    
+            3. running acid/base SMARTS pattern search on the makeup set to determine if the reaction atom centers belong to acid/base    
+            4. combine with **exp_processed.pt** to generate the final processed file: **exp_processed_all.pt**    
+
+- On Novartis dataset:   
+    - Dependents: 00_novartis_testdata.sdf, 04_novartis_testdata_mols.pka, 05_novartis_testdata_pyg_data.pkl   
+    - Notebooks:   
+        - pka_novartis_cleaning_part01.ipynb: similar procedures as pka_dw_cleaning_part01.ipynb   
+        - pka_novartis_cleaning_part02.ipynb: similar procedures as pka_dw_cleaning_part02.ipynb   
+
+- On literature dataset:   
+    - Dependents: 00_AvLiLuMoVe_testdata.sdf, 04_AvLiLuMoVe_testdata_mols.pkl, 05_AvLiLuMoVe_testdata_pyg_data.pkl   
+    - Notebooks:   
+        - pka_literature_cleaning.ipynb: similar procedures as pka_dw_cleaning_part01.ipynb and pka_dw_cleaning_part02.ipynb   
+
