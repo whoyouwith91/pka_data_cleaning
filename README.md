@@ -34,10 +34,12 @@ We cleaned some public pka datasets for ML modeling, which includes ChemBL(calcu
     - Dependents: 00_novartis_testdata.sdf, 04_novartis_testdata_mols.pka, 05_novartis_testdata_pyg_data.pkl   
     - Notebooks:   
         - pka_novartis_cleaning_part01.ipynb: similar procedures as pka_dw_cleaning_part01.ipynb   
-        - pka_novartis_cleaning_part02.ipynb: similar procedures as pka_dw_cleaning_part02.ipynb   
+        - pka_novartis_cleaning_part02.ipynb: similar procedures as pka_dw_cleaning_part02.ipynb
+        - Output useful file: **novartis_processed_all.pt**    
 
 - On literature dataset:   
     - Dependents: 00_AvLiLuMoVe_testdata.sdf, 04_AvLiLuMoVe_testdata_mols.pkl, 05_AvLiLuMoVe_testdata_pyg_data.pkl   
     - Notebooks:   
         - pka_literature_cleaning.ipynb: similar procedures as pka_dw_cleaning_part01.ipynb and pka_dw_cleaning_part02.ipynb   
+        - Output useful file: **literature_processed.pt**    
 
