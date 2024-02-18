@@ -1,7 +1,9 @@
 # pka data processing & cleaning
 
-Purpose: We cleaned some public pka datasets[^1] for ML modeling. These public datasets include **ChemBL(calculated)**, **dataWarrior(exp)**, **novartis(exp)** and **literature(exp)**. And great thanks to the data and scripts provided in this [repo](https://github.com/wiederm/pkasolver-data) as the starting point[^2], we prepared a list of jupyter notebooks to demonstrate how we processed and cleaned these datasets for our ML modeling cases.   
+### Purpose:    
+We cleaned some public pka datasets[^1] for ML modeling. These public datasets include **ChemBL(calculated)**, **dataWarrior(exp)**, **novartis(exp)** and **literature(exp)**. And great thanks to the data and scripts provided in this [repo](https://github.com/wiederm/pkasolver-data) as the starting point[^2], we prepared a list of jupyter notebooks to demonstrate how we processed and cleaned these datasets for our ML modeling cases.    
 
+### Details:   
 - On ChemBL dataset  
     - Dependents: **04_chembl_dataset_pyg.pkl**, **05_chembl_dataset_pyg.pkl**        
     - Notebooks:   
@@ -46,6 +48,6 @@ Purpose: We cleaned some public pka datasets[^1] for ML modeling. These public d
 
 
 ### References
-- 1. [Baltruschat, M.; Czodrowski, P. Machine Learning Meets pKa. F1000research 2020, 9, Chem Inf Sci-113.](https://doi.org/10.12688/f1000research.22090.2)
-- 2. [Mayr, F.; Wieder, M.; Wieder, O.; Langer, T. Improving Small Molecule pK a Prediction Using Transfer Learning With Graph Neural Networks. Front Chem 2022, 10, 866585.](https://doi.org/10.3389/fchem.2022.866585)
+[1^]: [Baltruschat, M.; Czodrowski, P. Machine Learning Meets pKa. F1000research 2020, 9, Chem Inf Sci-113.](https://doi.org/10.12688/f1000research.22090.2)
+[2^]: [Mayr, F.; Wieder, M.; Wieder, O.; Langer, T. Improving Small Molecule pK a Prediction Using Transfer Learning With Graph Neural Networks. Front Chem 2022, 10, 866585.](https://doi.org/10.3389/fchem.2022.866585)
 
