@@ -48,6 +48,6 @@ We cleaned some public pka datasets[^1] for ML modeling. These public datasets i
 
 
 ### References
-[1^]: [Baltruschat, M.; Czodrowski, P. Machine Learning Meets pKa. F1000research 2020, 9, Chem Inf Sci-113.](https://doi.org/10.12688/f1000research.22090.2)
-[2^]: [Mayr, F.; Wieder, M.; Wieder, O.; Langer, T. Improving Small Molecule pK a Prediction Using Transfer Learning With Graph Neural Networks. Front Chem 2022, 10, 866585.](https://doi.org/10.3389/fchem.2022.866585)
+[^1]: [Baltruschat, M.; Czodrowski, P. Machine Learning Meets pKa. F1000research 2020, 9, Chem Inf Sci-113.](https://doi.org/10.12688/f1000research.22090.2)    
+[^2]: [Mayr, F.; Wieder, M.; Wieder, O.; Langer, T. Improving Small Molecule pK a Prediction Using Transfer Learning With Graph Neural Networks. Front Chem 2022, 10, 866585.](https://doi.org/10.3389/fchem.2022.866585)
 
