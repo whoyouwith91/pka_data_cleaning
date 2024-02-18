@@ -1,7 +1,7 @@
 # pka data processing & cleaning
 
 ### Purpose:    
-We cleaned some public pka datasets[^1] for ML modeling. These public datasets include **ChemBL(calculated)**, **dataWarrior(exp)**, **novartis(exp)** and **literature(exp)**. And great thanks to the data and scripts provided in this [repo](https://github.com/wiederm/pkasolver-data) as the starting point[^2], we prepared a list of jupyter notebooks to demonstrate how we processed and cleaned these datasets for our ML modeling cases. If you find this repo useful, please feel to contact me!        
+We cleaned some public pka datasets[^1] for ML modeling. These public datasets include **ChemBL(calculated)**, **dataWarrior(exp)**, **novartis(exp)** and **literature(exp)**. And great thanks to the data and scripts provided in this [repo](https://github.com/wiederm/pkasolver-data) as the starting point[^2], we prepared a list of jupyter notebooks to demonstrate how we processed and cleaned these datasets for our ML modeling cases. If you find this repo useful, please feel to contact [me](https://www.linkedin.com/in/ddzhang/)!        
 
 ### Details:   
 - On ChemBL dataset  
